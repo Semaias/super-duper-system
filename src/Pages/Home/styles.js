@@ -31,6 +31,7 @@ export const Form = styled.form`
 export const Card = styled.div`
   margin-top: 30px;
   padding: 20px 0px;
+  margin-bottom: 20px;
 
   h2{
     text-align: center;
@@ -56,6 +57,21 @@ export const Card = styled.div`
     padding: 10px 20px;
     border-radius: 5px;
     
+    &.remove{
+      background: #CB4335;
+    }
+  
+  }
+  
+  a{
+    background: #203040;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    
+    text-decoration: none;
+
     &.remove{
       background: #CB4335;
     }
